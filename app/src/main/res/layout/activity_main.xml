@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.project.gpsparking.MainActivity">
+
+
+    <TextView
+        android:text="Gps Based Parking System"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="170sp"
+        android:layout_height="170sp"
+        app:srcCompat="@drawable/gpss"
+        android:id="@+id/imageView"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+
+</RelativeLayout>

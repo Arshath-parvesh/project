@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F7CAC9"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.project.gpsparking.Adminpage"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@color/colorPrimary"
+        android:textColor="#d2f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/b3"
+        android:layout_alignLeft="@+id/b3"
+        android:layout_alignStart="@+id/b3"
+        android:layout_marginTop="108dp"
+        android:layout_alignRight="@+id/b3"
+        android:layout_alignEnd="@+id/b3" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:background="@color/colorPrimary"
+        android:text="View Parking Details"
+        android:textColor="#d2f"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/b1"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignRight="@+id/b1"
+        android:layout_alignEnd="@+id/b1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Parking Information"
+        android:textColor="#d2f"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
